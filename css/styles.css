@@ -15,10 +15,10 @@ body {
 
 .container {
     margin-top: 250px;
-    margin: 100px;
+    margin: 75px;
     position: relative;
     z-index: 0 ;
-    height: 80vh;
+    height: 85vh;
 }
 
 .container .bg{
@@ -37,7 +37,7 @@ body {
 }
 
 .logo img{
-    height: 100px;
+    height: 120px;
 }
 
 .nav-link {
@@ -64,12 +64,28 @@ body {
     width: 70%;
 }
 
-footer {
-    color: white;
-    height: 10vh;
+.caixaTexto {
+    margin-top: 60px;
 }
 
 
+footer {
+    color: white;
+    height: 10vh;
+    font-size: 15px;
+    display: flex ;
+}
+.foot1{
+    width: 40%;
+}
+.foot2{
+    width: 30%;
+    line-height: 0.01;
+    text-align: center;
+}
+.foot3{
+    width: 30%;
+}
 
 @media screen and (max-width: 720px){
     .container{
@@ -77,6 +93,9 @@ footer {
     }
     .mainNova {
         display: block;
+    }
+    .homeBox {
+        margin-top: 30px;
     }
 
 }

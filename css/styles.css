@@ -71,7 +71,6 @@ body {
 
 footer {
     color: white;
-    height: 10vh;
     font-size: 15px;
     display: flex ;
 }
@@ -87,7 +86,7 @@ footer {
     width: 30%;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 780px){
     .container{
         margin: 10px;
     }
@@ -97,5 +96,7 @@ footer {
     .homeBox {
         margin-top: 30px;
     }
-
+footer {
+    margin-top: 80px;
+}
 }

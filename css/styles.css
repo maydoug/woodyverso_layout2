@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../img/background_dark.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    font-family: 'roboto' , sans-serif ;
+}
+
+.container {
+    margin-top: 200px;
+    margin: 100px;
+    position: relative;
+    z-index: 0 ;
+}
+
+.container .bg{
+    background-image: linear-gradient(to right,rgb(109, 12, 142), rgb(58, 53, 97));
+    position: absolute;
+    z-index: -1 ;
+    opacity: 15% ;
+    width: 100%;
+    height: 100%;
+}
+
+.nossaNav {
+  color: white;
+  opacity: 100%;
+  font-size: 20px;
+}
+
+.logo img{
+    height: 100px;
+}
+
+.nav-link {
+    color: white;
+}
+.navbar-collapse {
+    justify-content: space-around;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.mainNova {
+    display: flex;
+    height: 50vh;
+}
+
+.sidebar{
+    background-color: aqua;
+    width: 20%;
+}
+.homeBox{
+    background-color: brown;
+    width: 80%;
+}
+
+footer {
+    color: white;
+    background-color: blue;
+    height: 12vh;
+}

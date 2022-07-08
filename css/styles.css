@@ -75,5 +75,8 @@ footer {
     .container{
         margin: 10px;
     }
+    .mainNova {
+        display: block;
+    }
 
 }

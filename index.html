@@ -38,7 +38,7 @@
             </div>
             <div class="homeBox">
                 <div class="saudacao">
-                  <h3>Bem Vindo ao Metaverso!</h3>
+                  <h3><strong>Bem Vindo ao Metaverso! </strong></h3>
                 </div>
                 <div class="caixaVideo"></div>
                 <div class="caixaTexto">
@@ -50,8 +50,11 @@
                 </div>
             </div>
           </div>
-          <footer>
+          <div class="footerMain">
             <div class="foot1">
+              <div id="float-banner" class="float-banner">
+                <img src="./img/oculos.png" alt="">
+              </div>
             </div>
             <div class="foot2">
             </div>
@@ -62,11 +65,42 @@
               <p> <spam id="mostrar"></spam></p>
               <div id="passar_mouse" class="efeitoLogo"><a href="https://wa.me/5522992440968?text=Eu%20tenho%20interesse%20em%20conhecer%20o%20Woodyverso" target="_blank"><img src="./img/logowhatapp.png" id="passar_mouse" alt=""></a><div id="mostrar">(22) 99244-0968</div></div>
             </div>
-          </footer>
+          </div>
         </main>
 
+        <div class="banner">
+        </div>  
+         </div>
+
+    <div class='footer'>
+      <div class="bg"></div>        
+      </div>
+      <div class="contFooter">
+        <h4>FIM DA PAGINA</h4>
+      </div>
     </div>
-      
+    
+
+    
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script>
+jQuery(document).ready(function() {
+            $(window).scroll(function () {
+                var set = $(document).scrollTop()+"px";
+                jQuery('#float-banner').animate({
+                    top:set
+                },
+                {
+                    duration:2500,
+                    queue:true
+                });
+            });
+        });
+
+  </script>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 
